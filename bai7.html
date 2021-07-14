@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<p id="1"></p>
+<script>
+  let songuyen = 3;
+  let count = 0;
+  let n = 2;
+  let flag= false;
+  while (count<20){
+    for (n=2;n<songuyen;n++){
+      if (songuyen%n==0){
+        flag = false
+        break;
+      }else {
+        flag=true;
+      }
+    }
+    if (flag){
+      count++
+      document.write(songuyen +" ,")
+    }
+    songuyen++
+  }
+</script>
+</body>
+</html>
