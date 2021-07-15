@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 12</title>
+</head>
+<body>
+<table border="1" style="border-collapse: collapse">
+    <tr>
+        <td>Số Tiền Gửi:</td>
+        <td><input type="number" id="1"></td>
+    </tr>
+    <tr>
+        <td>Lãi Suất Gửi:</td>
+        <td><input type="number" id="2"></td>
+    </tr>
+    <tr>
+        <td>Kỳ Hạn Gửi:</td>
+        <td><input type="number" id="3"></td>
+    </tr>
+</table>
+<p id="4"></p>
+<button type="button" onclick="ketqua1()">Xem Kết Quả</button>
+<script>
+    // function ketqua(){
+    //     let tiengui = parseInt(document.getElementById('1').value)
+    //     let laisuat = parseFloat(document.getElementById('2').value)
+    //     let kyhan = parseInt(document.getElementById('3').value)
+    //     let tienlai = (tiengui*((1+(laisuat/100))**kyhan)).toFixed(0)
+    //     document.getElementById('4').innerText = tienlai + ' VNĐ'
+    // }
+    function ketqua1(){
+        let tiengui = parseInt(document.getElementById('1').value)
+        let laisuat = parseFloat(document.getElementById('2').value)
+        let kyhan = parseInt(document.getElementById('3').value)
+        let tienlai = 1;
+        for (let i = 1; i <=kyhan ; i++) {
+            tienlai = tiengui*(1+(laisuat/100))
+        }
+        document.getElementById('4').innerText = tienlai.toFixed(0) + ' VNĐ'
+    }
+</script>
+</body>
+</html>

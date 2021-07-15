@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a3e2e80-7bc3-4713-b510-dbf4c5f39bdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 1/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 2/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Luyện tập cấu trúc lặp 2/bai5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +50,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CodeGym\Moudle1\Cấu Trúc Lặp 1\Luyện tập cấu trúc lặp 2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +63,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626236148447</updated>
-      <workItem from="1626236149601" duration="8345000" />
+      <workItem from="1626236149601" duration="16114000" />
+      <workItem from="1626270130544" duration="53000" />
+      <workItem from="1626270221701" duration="2609000" />
+      <workItem from="1626311272264" duration="2176000" />
+      <workItem from="1626313550036" duration="10561000" />
+      <workItem from="1626333104709" duration="716000" />
+      <workItem from="1626333872657" duration="2007000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<button type="button" onclick="KT()">Chơi</button>
+<script>
+    function KT() {
+        let min = parseInt(prompt('Nhập số bắt đầu'));
+        let max = parseInt(prompt('Nhập số kết thúc'));
+        let ketqua;
+        if (min > max) {
+            alert('Nhập lại')
+        } else if(min>max){
+            let sodoan = parseInt(prompt('Hãy đoán số trong dãy vừa chọn'));
+            ketqua = Math.floor(Math.random() * max + min)
+            while (sodoan<min || sodoan>max){
+                sodoan=parseInt(prompt(sodoan))
+            }
+        }
+    }
+</script>
+</body>
+</html>
